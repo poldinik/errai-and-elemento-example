@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/errai-and-elemento-example.iml" filepath="$PROJECT_DIR$/errai-and-elemento-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/errai-and-elemento-example-client/errai-and-elemento-example-client.iml" filepath="$PROJECT_DIR$/errai-and-elemento-example-client/errai-and-elemento-example-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/errai-and-elemento-example-server/errai-and-elemento-example-server.iml" filepath="$PROJECT_DIR$/errai-and-elemento-example-server/errai-and-elemento-example-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/errai-and-elemento-example-shared/errai-and-elemento-example-shared.iml" filepath="$PROJECT_DIR$/errai-and-elemento-example-shared/errai-and-elemento-example-shared.iml" />
+    </modules>
+  </component>
+</project>

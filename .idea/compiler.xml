@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="errai-and-elemento-example-server" />
+        <module name="errai-and-elemento-example-client" />
+        <module name="errai-and-elemento-example-shared" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="errai-and-elemento-example" target="1.5" />
+      <module name="errai-and-elemento-example-client" target="1.8" />
+      <module name="errai-and-elemento-example-server" target="1.8" />
+      <module name="errai-and-elemento-example-shared" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding ISO-8859-1" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="errai-and-elemento-example-client" options="" />
+      <module name="errai-and-elemento-example-server" options="" />
+      <module name="errai-and-elemento-example-shared" options="" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="errai-and-elemento-example-server:war exploded">
+    <output-path>$PROJECT_DIR$/errai-and-elemento-example-server/target/errai-and-elemento-example-server-1.0</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>errai-and-elemento-example-server</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="errai-and-elemento-example-server" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="errai-and-elemento-example-shared-1.0.jar">
+            <element id="module-output" name="errai-and-elemento-example-shared" />
+          </element>
+          <element id="library" level="project" name="Maven: com.google.gwt:gwt-servlet:2.8.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/errai-and-elemento-example-server/target/errai-and-elemento-example-server-1.0/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="errai-and-elemento-example-server/web/Web" />
+      <element id="artifact" artifact-name="errai-and-elemento-example-client:war exploded" />
+    </root>
+  </artifact>
+</component>
