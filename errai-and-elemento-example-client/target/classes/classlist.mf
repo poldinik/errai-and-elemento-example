@@ -1,0 +1,3 @@
+studio.volare.client.App
+studio.volare.client.ErraiEntryPoint
+studio.volare.client.Service

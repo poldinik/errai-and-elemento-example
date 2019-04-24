@@ -1,0 +1,3 @@
+# Module app
+# RPC service class, partial path of RPC policy file
+studio.volare.GreetingService, 0002A4D720C5CAF4B0E0216C3B7CDA28.gwt.rpc

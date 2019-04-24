@@ -63,6 +63,13 @@
       <version>4.6.0.Final</version>
       <type>${gwt-lib-dependency.type}</type>
     </dependency>
+
+
+    <dependency>
+      <groupId>org.jboss.errai</groupId>
+      <artifactId>errai-jaxrs-provider</artifactId>
+      <version>4.6.0.Final</version>
+    </dependency>
   </dependencies>
 
   <build>
